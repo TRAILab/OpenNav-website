@@ -148,15 +148,10 @@
           <h2 class="title is-3">Key Features</h2>
           <div class="content has-text-justified">
             <ul>
-              <li><strong>Tracking-by-Attention (TBA)</strong>: JDT3D uses a TBA approach, which represents objects as
-                vector embeddings or "queries" to detect them across multiple frames.
-              <li><strong>Joint Detection and Tracking</strong> (JDT): The model performs detection and tracking jointly
-                in an end-to-end manner, enabling the exchange of information between the detector and tracker.
-              <li><strong>Track Sampling Augmentation:</strong> JDT3D employs a novel data augmentation method that
-                injects consistent objects over multiple LiDAR frames to enrich supervision signals while maintaining
-                temporal consistency.
-              <li><strong>Confidence-based Query Propagation</strong>: The model uses a confidence threshold for query
-                propagation during both training and inference to prevent over-trusting false positive queries.
+              <li><strong>Zero-Shot Vision-Language Navigation</strong>: OpenNav is the first framework to directly generate outdoor navigation trajectories using a MLLM. It requires no pre-trained skills, motion primitives, or in-context examples, enabling navigation with open-set instructions and objects.
+              <li><strong>Multi-Expert System for Robust Scene Comprehension</strong> By integrating state-of-the-art MLLMs with an open-vocabulary perception system, OpenNav improves robustness in diverse environments. A single task-agnostic prompt and a multimodal interface between the MLLM and perception system enhance adaptability to open-set objects and language inputs.
+              <li><strong>Reasoning and Geometry-Compliant Trajectory Synthesis</strong> OpenNav combines the reasoning, code generation, and function-calling abilities of MLLMs with classical planning techniques, leveraging both human-like intelligence and geometry-compliant trajectory synthesis.
+              <li><strong>Evaluation in Autonomous Vehicle Datasets (AVDs)</strong>: We validate OpenNav's performance using AVDs, offering a new approach to studying embodied intelligence with rich, labeled data from real-world navigation tasks.
             </ul>
           </div>
         </div>
