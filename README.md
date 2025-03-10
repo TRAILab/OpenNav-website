@@ -1,5 +1,5 @@
 # OpenNav
-This is the repository that contains source code for the [OccPoser website](https://mfyuan.github.io/OccPoser-website/).  
+This is the repository that contains source code for the [OpenNav website](https://mfyuan.github.io/OpenNav-website/).  
 
 
 
