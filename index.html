@@ -120,7 +120,7 @@
             <img src="./static/images/Framework.jpg" style="width: 80%;" alt="JDT3D Architecture">
         </div>
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">OpenNav</span> is a novel zero-shot vision-language-navigation framework for outdoor setting.
+          <span class="dnerf">Overview of OpenNav</span> Given the posed RGB-Lidar observation of the environment and an open-set free-form language instruction, 1) we leverages task-agnostic prompts to enable zero-shot generalization and adaptability to varied instructions; 2) MLLM generates code, which interacts with OVPS, to produce open-set multimodal scene perception outputs, and 2D bird-eye-view (BEV) value map (consists of a semantic map and occupancy map) grounded in the operation environment. 3) MLLM synthesizes a human-like coarse trajectory based on instructions, scene understanding, and its reasoning capabilities. The generated BEV value map then serves as the objective function for the motion planner, which refines the trajectory to ensure geometry-compliant navigation. Please see Fig~\ref{fig:perception} for detailed pipeline, inputs, and outputs of the OVPS.
         </h2>
       </div>
     </div>
@@ -134,7 +134,7 @@
             <img src="./static/images/Selection.png" style="width: 80%;" alt="JDT3D Architecture">
         </div>
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">A</span> selection of tasks demonstrates how our method generates a dense sequence of robot poses in a zero-shot manner with a single task-agnostic prompt, without requiring in-context examples or pre-trained skills.
+          <span class="dnerf">Given</span> a free-form language instruction and sensor observations, OpenNav is capable of generating a dense sequence of instruction-following and scene-compliant robot waypoints in a zero-shot manner for open-world navigation, effectively handling open-set objects and open-set instructions without relying on in-context examples or pre-trained skills.
         </h2>
       </div>
     </div>
