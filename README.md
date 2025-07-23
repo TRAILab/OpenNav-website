@@ -1,5 +1,5 @@
 # OpenNav
-This is the repository that contains source code for the [OpenNav website](https://mfyuan.github.io/OpenNav-website/).  
+This is the repository that contains source code for the [OpenNav website](https://TRAILab.github.io/OpenNav-website/).  
 
 
 
